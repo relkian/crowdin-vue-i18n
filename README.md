@@ -51,7 +51,7 @@ fail!
 > time.
 >
 > If you make changes to the **export** script but don't see any changes
-> in the genrated files, go to the string editor (*Dashboard* > *[Language]* >
+> in the generated files, go to the string editor (*Dashboard* > *[Language]* >
 > *[File]*), then edit a translation and save it. This should be done for
 > **each** language whose file is not being updated.
 >
