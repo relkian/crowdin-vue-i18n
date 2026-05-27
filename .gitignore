@@ -1,0 +1,4 @@
+# Jest.
+/node_modules/
+/coverage/
+

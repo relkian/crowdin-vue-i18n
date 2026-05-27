@@ -1,0 +1,13 @@
+# See: https://pnpm.io/supply-chain-security
+#
+# Package must be at least 3 days old before being able to be installed.
+minimumReleaseAge: 4320
+# Prevent installation of a package if its trust level has decreased compared
+# to previous releases.
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  # Signed since version 7.5.1.
+  - 'semver@6.3.1'
+# unrs-resolver is allowed to run post-install script.
+allowBuilds:
+  unrs-resolver: true

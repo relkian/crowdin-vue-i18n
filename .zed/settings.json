@@ -1,0 +1,14 @@
+{
+  "languages": {
+    "JavaScript": {
+      // Default: 2.
+      "tab_size": 4,
+      // Avoid removing empty lines and indenting comments in if statements.
+      //"format_on_save": "off",
+      // Disable showing Object.keys(data).forEach() function signature all the
+      // time on hover in import.js as most of the code is located in the
+      // callback function inside it.
+      "enable_language_server": false,
+    },
+  },
+}
